@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #fd8da0;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fondo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+    opacity: 0.4;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 2000;
+    margin-top: 300px;
+}
+
+table {
+    width: 450px;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #f4f4f4;
+}
+
+thead {
+    background-color: #fe7289;
+    color: #fff;
+}
+
+th, td {
+    border: 2px solid #ff6767;
+    padding: 8px;
+    text-align: left;
+}
+
+form {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 10px;
+    width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ff5454 ;
+    border-radius: 10px;
+}
+textarea{
+    height: 150px;
+    text-indent: 5px;
+    width: 400px;
+    border: 1px solid #ff5454 ;
+    border-radius: 10px;
+}
+input[type="number"]{
+    width: 100px;
+}
+input[type="submit"] {
+    background-color: #fd8da0;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff3758;
+}
+
+.error {
+    color: #ff0000;
+    margin-top: 10px;
+}
+.borrar {
+    position: absolute;
+    margin-top: 1100px;
+    color: #ff0000;
+    font-weight: bolder;
+    font-size: 35px;
+}
